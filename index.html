@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="/styles.css">
-  <script src="/index.js" defer type="module"></script>
+  <script src="/index.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/validator@13.9.0/validator.min.js"></script>
   <title>Newsletter sign-up form with success message</title>
 </head>
@@ -29,7 +29,7 @@
       <form id="form" novalidate>
         <div class="email-input-group">
           <div class="label-and-error">
-            <label for="email">Email address</label>
+            <label for="email-input">Email address</label>
             <span id="error-message"></span>
           </div>
           <input type="email" id="email-input" placeholder="email@company.com" required>
