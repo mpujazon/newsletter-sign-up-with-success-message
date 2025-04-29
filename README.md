@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository]([https://github.com/mpujazon/meet-landing-page](https://github.com/mpujazon/newsletter-sign-up-with-success-message))
+- Solution URL: [GitHub Repository](https://github.com/mpujazon/meet-landing-page](https://github.com/mpujazon/newsletter-sign-up-with-success-message))
 - Live Site URL: [Live Site on Vercel](https://newsletter-sign-up-with-success-message-eosin-seven.vercel.app)
 
 ## My process
