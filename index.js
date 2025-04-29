@@ -1,6 +1,7 @@
 let form = document.getElementById("form");
 let input = document.getElementById("email-input");
 let errorMessage = document.getElementById("error-message");
+let emailSent = document.getElementById("email-sent");
 let successContainer = document.getElementById("success-container");
 let successBtn = document.getElementById("success-btn");
 
@@ -10,6 +11,7 @@ function handleSubmit(e) {
         errorMessage.textContent = "Validation email required";
         input.classList.add("error");
     }else{
+        emailSent.textContent = input.value;
         successContainer.classList.remove("hidden");
         errorMessage.textContent = "";
         input.classList.remove("error");
