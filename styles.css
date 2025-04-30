@@ -210,14 +210,19 @@ body{
     .container{
         width: 62.7777778%;
         max-width: 56.5rem;
+        height: 40.0625rem;
         flex-direction: row-reverse;
         gap: var(--spacing-800);
         padding: var(--spacing-400);
     }
+    .newsletter-info{
+        gap: var(--spacing-400);    
+    }
     .newsletter-picture{
-        width: 100%;
+        width: 25rem;
         height: 100%;
         border-radius: 16px;
+        scale: 1.03;
     }
     .container-content{
         justify-content: center;
